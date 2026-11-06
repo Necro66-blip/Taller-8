@@ -36,7 +36,7 @@ print(f"Respuesta: {a_en_b} (No todos los de A están en B)\n")
 
 
 print("8. Agregar un nuevo estudiante y actualizar resultados ")
-nuevo_curso = input("¿A qué curso desea agregar al estudiante (A o B)?: ")
+nuevo_curso = input("A qué curso desea agregar al estudiante (A o B)?: ")
 nuevo_nombre = input("Ingrese el nombre del nuevo estudiante: ")
 
 if nuevo_curso == 'A':
@@ -46,7 +46,7 @@ elif nuevo_curso == 'B':
     curso_B.add(nuevo_nombre)
     print(f"\n¡{nuevo_nombre} ha sido agregado exitosamente al Curso B!")
 else:
-    print("\n Error")
+    print("\n Error, digite solamente un caracter A o B.")
 
 
 print("\n---Modificaciones realizadas---")
